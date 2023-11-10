@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Pacifico&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all 0.5s;
+    outline: none;
+}
+
+:root{
+    --font-TAS: 'Edu TAS Beginner', cursive;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-pacifico: 'Pacifico', cursive;
+    --color-orange-233:rgb(233,127,17);
+    --color-gray:rgb(66,65,65);
+}
+
+
+body {
+    --sb-track-color: #424141;
+    --sb-thumb-color: #e97f11;
+    --sb-size: 7px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 41px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 41px;
+    
+    }
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Header CSS*/
+header
+{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    position: relative;
+    max-width: 100%;
+    border-top: 5px solid var(--color-orange-233);
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+ul a{
+    color: var(--color-orange-233);
+    font-size: 18px;
+    font-family: var(--font-montserrat);
+    padding: 10px;
+
+}
+
+ul a:hover{
+    border-bottom: 1px solid var(--color-orange-233);
+}
+
+
+/*Banner CSS*/
+
+.banner{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-text h4 , .banner-text h2, .banner-text h1{
+    font-size: 40px;
+    color: var(--color-gray);
+    font-weight: 400;
+    font-family: var(--font-TAS);
+}
+
+.banner-text h2, .banner-text h1{
+    font-size: 80px;
+}
+.banner-text span , .banner-text h1{
+    color: var(--color-orange-233);
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+/*About*/
+
+.about
+{
+    padding-top: 60px;
+}
+
+.about-text{
+    text-align: center;
+}
+
+.about-text h1 , .about-step h4{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray);
+}
+
+.about-text p {
+    color: var(--color-orange-233);
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.about-step p{
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.about-step h1{
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-orange-233);
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.about-step span{
+    color: var(--color-gray);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*Section*/
+
+section{
+    position: relative;
+    height: auto;
+    padding-top: 60px;
+    margin-top: 30px;
+}
+
+.section-text{
+    text-align: center;
+}
+
+.section-text h1{
+    font-size: 50px;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    color: var(--color-gray);
+    padding-bottom: 20px;
+}
+.section-text p{
+    color: var(--color-gray);
+    font-size: 20px;
+    font-family: var(--font-TAS);
+}
+.section-text h1 span{
+    color: var(--color-orange-233);
+}
+
+.section-row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-row span{
+    padding-left: 20px;
+    color: var(--color-gray);
+    font-size: 20px;
+    font-family: var(--font-montserrat);
+}
+
+section .row , footer .row{
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.section-icon img{
+    width: 100%;
+}
+
+.section-icon h3{
+    font-size: 24px;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    color: var(--color-gray);
+
+}
+
+.youtube{
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.youtube h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray);
+    margin-bottom: 30px;
+}
+
+.youtube span{
+    color: var(--color-orange-233);
+}
+
+.youtube img{
+    margin-right: 40px;
+ }
+
+ .youtube button{
+    padding: 10px 60px; 
+    margin-top: 40px;
+    border: 1px solid var(--color-orange-233);
+    background-color: transparent;
+    color: var(--color-orange-233);
+    cursor: pointer;
+    font-size: 18px;
+ }
+
+ .youtube button:hover{
+    background-color: var(--color-orange-233);
+    color: #fff;
+ }
+
+ /*Footer*/
+
+ footer{
+    height: 35vh;
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    background-color: azure;
+    margin-top: 60px;
+ }
+ .youtube_icon , .support{
+    float: left;
+    width: 33%;
+    margin-right: 100px;
+ }
+
+.youtube_icon h1, .address h1 , .support h1{
+    font-size: 30px;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--color-orange-233);
+}
+
+.youtube_icon a , .support a, .address a{
+    color: var(--color-gray);
+    font-size: 16px;
+    font-family: var(--font-montserrat);
+}
+.youtube_icon p, .support p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.address img{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    height: 50px;
+    font-family: var(--font-TAS);
+ }
+
+ .personal{
+    background-color: var(--color-orange-233);
+    color: #fff;
+    padding-top: 10px;
+ }
+
+ /*Blogs CSS*/
+
+ .blogs{
+    position: relative;
+    padding-top: 60px;
+ }
+ .blogs h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--color-gray);
+    font-family: var(--font-montserrat);
+    padding-bottom: 30px;
+ }
+ .blogs p{
+    font-size: 24px;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray);
+    padding-bottom: 30px;
+ }
+ .blogs span{
+    color: var(--color-orange-233);
+ }
+
+ .post img{
+    width: 200px;
+    height: 200px;
+ }
+
+ .post p{
+    font-size: 16px;
+    padding-top: 10px;
+ }
+
+ /*Contact*/
+
+ .contact{
+    padding-top: 60px;
+    position: relative;
+ }
+
+ .contact-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray);
+    margin-bottom: 20px;
+ }
+
+ .contact-text span{
+    color: var(--color-orange-233);
+ }
+
+ .contact-text p{
+    font-size: 20px;
+    font-family: var(--font-montserrat);
+    color: var(--color-gray);
+    margin-bottom: 30px;
+ }
+ form{
+    width: 100%;
+ }
+
+ form label{
+    font-size: 18px;
+    font-family: var(--font-montserrat);
+    color: var(--color-orange-233);
+ }
+
+ form input , textarea{
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--color-orange-233);
+ }
+
+ form input[type=text]{
+    color: var(--color-gray);
+ }
+
+ .btn{
+    background-color: transparent;
+    color: var(--color-orange-233);
+    font-size: 18px;
+    border: 1px solid var(--color-orange-233);
+ }
+
+ .btn:hover{
+    background-color: var(--color-orange-233);
+    color: #fff;
+ }
+
+ .img{
+    width: 100%;
+ }
+
+ .img img{
+    width: 100%;
+    height: 300px;
+ }
+
+ #msg{
+    color: var(--color-orange-233);
+    font-size: 18px;
+    font-family: var(--font-montserrat);
+}
+
+ /*meun*/
+
+ .meun{
+    display: none;
+ }

@@ -1,0 +1,190 @@
+@media screen and (max-width:1165px) {
+    .container{
+        margin: 0 20px;
+    }
+    .banner-img{
+        width: 90%;
+    }
+    .section-row{
+        margin-left: 70px;
+    }
+
+    
+}
+
+@media screen and (max-width:982px) {
+    .banner-text h4{
+        font-size: 20px;
+    }
+    .banner-text h2, .banner-text h1{
+        font-size: 50px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    
+
+    .head-logo img{
+        width: 50px;
+    }
+
+
+    .banner .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner-text{
+        width: 100%;
+        margin: auto;
+    }
+ 
+
+    .banner-text h4{
+        font-size: 20px;
+    }
+    .banner-text h2, .banner-text h1{
+        font-size: 50px;
+    }
+
+    nav{
+        display: none;
+        z-index: 999;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 54.5px;
+        background-color: var(--color-orange-233);
+        width: 100%;
+        height:50vh;
+        text-align: center;
+    }
+    #close{
+        display: none;
+    }
+
+    .meun{
+        display: block;
+        font-size: 24px;
+        color: var(--color-orange-233);
+    }
+
+    nav ul li{
+        display: block;
+    }
+    ul li a{
+        color: #fff;
+    }
+    ul li{
+        padding-top: 40px;
+    }
+    .section-text h1{
+        font-size: 24px;
+    }
+    .section-text p{
+        font-size: 15px;
+    }
+    .section-row{
+        margin-left: 0px;
+    }
+    .section-row span{
+        font-size: 14px;
+        text-align: start;
+    }
+    .section-icon img{
+        width: 50px;
+    }
+    .section-icon h3{
+        font-size: 13px;
+    }
+
+    .youtube h1{
+        font-size: 22px;
+    }
+    .youtube img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .youtube button{
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .youtube_icon h1, .support h1, .address h1, .about-text h1{
+        font-size: 18px;
+    }
+    .youtube_icon a , .support a , .address a, .about-text p{
+        font-size: 14px;
+    }
+ .address img{
+        margin-right: 10px;
+    }
+    .personal p{
+        font-size: 12px;
+    }
+
+    .about-step h4{
+        font-size: 20px;
+    }
+
+    .about-step p, .about-step span{
+        font-size: 12px;
+    }
+
+    .about-step h1{
+        font-size: 20px;
+    }
+
+    .blog-text h2{
+        font-size: 40px;
+    }
+    .blog-text p{
+        font-size: 20px;
+    }
+    .blogs .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post img{
+        width: 100px;
+        height: 100px;
+    }
+    .post p{
+        font-size: 12px;
+    }
+    .contact h2{
+        font-size: 40px;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+    .contact .row{
+        display: inline;
+    }
+
+    footer{
+        height: 40vh;
+    }
+
+
+}

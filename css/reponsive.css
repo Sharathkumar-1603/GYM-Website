@@ -23,6 +23,10 @@
         width: 100%;
         margin-top: 10px;
     }
+
+    .section-row{
+        margin-left: 70px;
+    }
  
 
 }
@@ -99,8 +103,13 @@
     .section-text p{
         font-size: 15px;
     }
+    .section-row {
+        align-items: center;
+        display: flex;
+    }
     .section-row span{
         font-size: 14px;
+        text-align: start;
     }
     .section-icon img{
         width: 50px;

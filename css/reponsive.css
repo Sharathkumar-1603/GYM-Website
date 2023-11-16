@@ -103,9 +103,8 @@
     .section-text p{
         font-size: 15px;
     }
-    .section-row {
-        align-items: center;
-        display: flex;
+  .section-row{
+        margin-left: 0px;
     }
     .section-row span{
         font-size: 14px;
